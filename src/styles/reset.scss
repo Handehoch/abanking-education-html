@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: inherit;
+}
+
+.flex {
+ display: flex;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  margin-right: 123px;
+  margin-bottom: 22px;
+}

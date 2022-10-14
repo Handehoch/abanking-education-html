@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=footer-list.css.map */
+.footer-list__icon {
+  margin: 0;
+}
+
+.footer-list__icon:not(:last-child) {
+  margin-right: 35px;
+}
+
+.footer-list__link {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=footer-list.css.map */

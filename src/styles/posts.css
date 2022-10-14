@@ -1,2 +1,46 @@
 @use './post.scss';
+.posts {
+  background-color: #EDF7FA;
+  margin-bottom: 7px;
+}
+
+.posts__container {
+  width: 850px;
+}
+
+.posts__info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.posts__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  left: 20px;
+  top: -11px;
+  color: #00A8CC;
+}
+
+.posts__list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
+}
+
+.posts__item {
+  margin: 0;
+  max-width: 418px;
+  background-color: white;
+  padding: 24px 13px 7px 31px;
+}
+
+.posts__item:not(:last-child) {
+  margin-right: 12px;
+}
 /*# sourceMappingURL=posts.css.map */

@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+.footer {
+  margin: 0;
+  margin-bottom: 52px;
+}
+
+.footer__container {
+  width: 850px;
+}
+
+.footer__footer-list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

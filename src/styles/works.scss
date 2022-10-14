@@ -1,3 +1,22 @@
 .works {
-  
+  margin: 0;
+  margin-bottom: 83px;
+  &__container {
+    width: 850px;
+  }
+
+  &__works-list {
+
+  }
+
+  &__works-item {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  &__works-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }

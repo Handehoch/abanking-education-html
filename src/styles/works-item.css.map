@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACG,AAAD,mBAAS,CAAC;EACR,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,IAAI;CACnB",
     "sources": [
         "works-item.scss"
     ],

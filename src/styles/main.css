@@ -1,3 +1,4 @@
+@use './reset.scss';
 @use './header.scss';
 @use './portfolio.scss';
 @use './posts.scss';
@@ -7,34 +8,4 @@
 @use './works-info.scss';
 @use './footer.scss';
 @use './footer-list.scss';
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: 'Heebo', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.list-reset {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  color: inherit;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.container {
-  margin: 0 auto;
-}
 /*# sourceMappingURL=main.css.map */

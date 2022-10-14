@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=works-info.css.map */
+.works-info {
+  margin: 0;
+}
+
+.works-info__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.works-info__add-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.works-info__year {
+  background-color: #142850;
+  border-radius: 16px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 26px;
+}
+
+.works-info__subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+.works-info__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=works-info.css.map */

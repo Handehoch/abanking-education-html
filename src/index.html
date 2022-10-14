@@ -36,16 +36,18 @@
 					<p class="portfolio__description">
 						Amet minim mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
 					</p>
-					<button class="portfolio__button button-reset">Download Resume</button>
+					<a class="portfolio__button button-reset" download="#">Download Resume</a>
 				</div>
 				<img src="../img/avatar.png" alt="Avatar" class="porfolio__image">
 			</div>
 		</section>
 		<section class="posts">
-			<div class="container">
-				<h2 class="section-title posts__title">Recent posts</h2>
-				<a class="posts__link">View all</a>
-				<ul class="posts__list list-reset">
+			<div class="container posts__container">
+				<div class="posts__info flex">
+					<h2 class="section-title posts__title">Recent posts</h2>
+					<a href="#" class="posts__link">View all</a>
+				</div>
+				<ul class="posts__list list-reset flex">
 					<li class="posts__item">
 						<article class="post">
 							<h3 class="post__title">Making a&nbsp;design system from scratch</h3>
@@ -68,16 +70,16 @@
 			</div>
 		</section>
 		<section class="works">
-			<div class="container">
+			<div class="container works__container">
 				<h2 class="section-title works__title">Featured works</h2>
 				<ul class="works__works-list list-reset">
 					<li class="works__works-item">
-						<article class="works-item">
+						<article class="works-item flex">
 							<img src="../img/avatar-1.png" alt="" class="works-item__avatar">
 							<div class="works-item__works-info">
 								<h3 class="works-info__title">Designing Dashboards</h3>
-								<div class="works-info__add-content">
-									<p class="works-info__year">2020</p>
+								<div class="works-info__add-content flex">
+									<div class="works-info__year">2020</div>
 									<h4 class="works-info__subtitle">Dashboard</h4>
 								</div>
 								<p class="works-item__description">
@@ -87,12 +89,12 @@
 						</article>
 					</li>
 					<li class="works__works-item">
-						<article class="works-item">
+						<article class="works-item flex">
 							<img src="../img/avatar-2.png" alt="" class="works-item__avatar">
 							<div class="works-item__works-info">
 								<h3 class="works-info__title">Vibrant Portraits of&nbsp;2020</h3>
-								<div class="works-info__add-content">
-									<p class="works-info__year">2018</p>
+								<div class="works-info__add-content flex">
+									<div class="works-info__year">2018</div>
 									<h4 class="works-info__subtitle">Illustration</h4>
 								</div>
 								<p class="works-item__description">
@@ -102,12 +104,12 @@
 						</article>
 					</li>
 					<li class="works__works-item">
-						<article class="works-item">
+						<article class="works-item flex">
 							<img src="../img/avatar-3.png" alt="" class="works-item__avatar">
 							<div class="works-item__works-info">
 								<h3 class="works-info__title">36&nbsp;Days of&nbsp;Malayalam type</h3>
-								<div class="works-info__add-content">
-									<p class="works-info__year">2018</p>
+								<div class="works-info__add-content flex">
+									<div class="works-info__year">2018</div>
 									<h4 class="works-info__subtitle">Typography</h4>
 								</div>
 								<p class="works-item__description">
@@ -121,23 +123,33 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<ul class="footer__footer-list list-reset">
-			<li class="footer-list__icon">
-				<a href="#" class="footer-list__link footer-list__link_fb"></a>
-			</li>
-			<li class="footer-list__icon">
-				<a href="#" class="footer-list__link footer-list__link_inst"></a>
-			</li>
-			<li class="footer-list__icon">
-				<a href="#" class="footer-list__link footer-list__link_twitter"></a>
-			</li>
-			<li class="footer-list__icon">
-				<a href="#" class="footer-list__link footer-list__link_linkedin"></a>
-			</li>
-		</ul>
-		<p class="footer__description">
-			Copyright &copy;2020 All rights reserved
-		</p>
+		<div class="container footer__container">
+			<ul class="footer__footer-list list-reset flex">
+				<li class="footer-list__icon">
+					<a href="#" class="footer-list__link">
+						<img src="../img/fb.svg" alt="" class="">
+					</a>
+				</li>
+				<li class="footer-list__icon">
+					<a href="#" class="footer-list__link">
+						<img src="../img/insta.svg" alt="" class="">
+					</a>
+				</li>
+				<li class="footer-list__icon">
+					<a href="#" class="footer-list__link">
+						<img src="../img/twitter.svg" alt="" class="">
+					</a>
+				</li>
+				<li class="footer-list__icon">
+					<a href="#" class="footer-list__link">
+						<img src="../img/linkedin.svg" alt="" class="">
+					</a>
+				</li>
+			</ul>
+			<p class="footer__description">
+				Copyright &copy;2020 All rights reserved
+			</p>
+		</div>
 	</footer>
 </body>
 </html>

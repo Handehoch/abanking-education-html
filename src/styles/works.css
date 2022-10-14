@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=works.css.map */
+.works {
+  margin: 0;
+  margin-bottom: 83px;
+}
+
+.works__container {
+  width: 850px;
+}
+
+.works__works-item {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.works__works-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=works.css.map */
