@@ -1,0 +1,44 @@
+.portfolio {
+  &__container {
+    width: 850px;
+    align-items: center;
+
+  }
+
+  &__info {
+    margin: 0;
+    margin-right: 106px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  &__description {
+    margin: 0;
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__button {
+    background-color: #FF6464;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  &__image {
+    width: 243px;
+    height: 243px;
+    max-height: 100%;
+  }
+}

@@ -7,10 +7,9 @@
 @use './works-info.scss';
 @use './footer.scss';
 @use './footer-list.scss';
-
-
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -30,9 +29,12 @@ a {
 }
 
 .flex {
- display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container {
   margin: 0 auto;
 }
+/*# sourceMappingURL=main.css.map */
