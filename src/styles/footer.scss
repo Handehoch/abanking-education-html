@@ -5,9 +5,22 @@
     width: 850px;
   }
 
-  &__footer-list {
+  &__list {
     align-items: center;
     justify-content: center;
+  }
+
+  &__item {
+    margin: 0;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 35px;
+  }
+
+  &__link {
+    width: 30px;
+    height: 30px;
   }
 
   &__description {
